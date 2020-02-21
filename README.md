@@ -10,5 +10,5 @@ Design1:
   2. Opto couple
 
 Design2:
-  1. Apply Logic level Shifter
+  1. Apply Logic level Shifter. There are 2 components used for this, ie Transistor BSS138 and R10K
 
