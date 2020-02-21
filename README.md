@@ -5,5 +5,10 @@ A starter hardware project using the Raspberry Zero is hooking up the Injection 
 Design IO Box to getting the Machine parameter with 24V data signal that are need to convert to 3.3V for Rasp Pi
 
 ### Concept design
+Design1:
   1. Voltage divider
   2. Opto couple
+
+Design2:
+  1. Apply Logic level Shifter
+
