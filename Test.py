@@ -34,7 +34,7 @@ try:
 
     time.sleep(1)
 
-    GPIO.add_event_detect(sensor,GPIO.FALLING,callback = get_pulse,bouncetime=20)
+    GPIO.add_event_detect(sensor,GPIO.FALLING,callback = get_pulse,bouncetime=25)
     while True:
         print('short_no:{0:.0f} elapse:{1:.4f}'.format(short_no,elapse))
         time.sleep(0.1) #to reduce CPU load, print every 100 milliseconds
